@@ -19,7 +19,8 @@ public class BinaryRecursion {
 	public static int binaryRecursive(int arr[],int start, int end, int find) {
 		int mid = 0;
 		if(start<=end) {
-			mid = start + end /2;
+			mid = (start + end) /2;
+			System.out.println("mid = " + mid);
 			if(arr[mid] == find) {
 				return mid;
 			}
