@@ -7,7 +7,7 @@ public class PrimeNumber {
 	
 	public static void main(String[] args) {
 		
-		primeNumber(9);
+		primeNumber(19);
 		
 	}
 	
